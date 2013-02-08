@@ -15,15 +15,15 @@ plugins:     ./_plugins
 permalink: /:year/:month/:day/:title
 
 ## Variables
-title : m8ck
-description : Yet another weblog about technology and web development 
-url : http://m8ck.github.com
-tagline : yet another weblog
+title : The Setkeh Project 
+description : Portfolio and Code Rants an Riots 
+url : http://setkeh.com
+tagline : Miniature-Nemesis
 author :
-  name : m8ck
-  email : magnus.f.vadoy@gmail.com
-  github : m8ck
-  twitter : m8ck
-  feedburner : m8ck
+  name : Setkeh
+  email : setkeh@gmail.com
+  github : setkeh
+  twitter : setkeh
+  feedburner : setkeh
   
-production_url : http://m8ck.github.com
+production_url : https://github.com/setkeh/miniature-nemesis
