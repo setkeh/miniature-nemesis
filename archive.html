@@ -1,0 +1,13 @@
+---
+layout: layout
+title: m8ck
+description: Archive
+---
+
+<div class="content">
+	{% for post in site.posts %}
+	<ul class="posts">
+      <span class="date">{{ post.date | date: "%e %B, %Y" }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a>
+	</ul>
+	{% endfor %}
+</div>

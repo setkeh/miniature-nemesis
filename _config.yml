@@ -1,0 +1,29 @@
+safe:        true
+auto:        true
+server:      true
+baseurl:     /
+
+future:      true
+lsi:         false
+pygments:    true
+markdown:    rdiscount
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+permalink: /:year/:month/:day/:title
+
+## Variables
+title : m8ck
+description : Yet another weblog about technology and web development 
+url : http://m8ck.github.com
+tagline : yet another weblog
+author :
+  name : m8ck
+  email : magnus.f.vadoy@gmail.com
+  github : m8ck
+  twitter : m8ck
+  feedburner : m8ck
+  
+production_url : http://m8ck.github.com

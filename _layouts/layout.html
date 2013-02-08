@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="author" content="m8ck" />
+	{% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+	<title>{{ page.title }}</title>
+	<link href="/css/normalize.css" rel="stylesheet" />
+	<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic" rel="stylesheet" />
+	<link href="/css/screen.css" media="screen" rel="stylesheet" />
+	<link href="/css/pygments.css" media="screen" rel="stylesheet" />
+	<link rel="alternate"  href="http://feeds.feedburner.com/m8ck" type="application/rss+xml" title="RSS Feed"/>
+</head>
+<body>
+	
+	<div id="wrapper">
+		
+		<header id="masterhead">
+			<h1 id="header"><a href="/">m8ck</a></h1>
+				<nav>
+					<a href="http://twitter.com/m8ck">Twitter</a> -
+					<a href="/archive.html">Archive</a> -
+					<a href="http://feeds.feedburner.com/m8ck">Feed</a>
+				</nav>
+			<div class="clear"></div>
+    
+			<iframe src='http://anonymousads.com/a/1PVm54m8gJpA1yFVws7WijT88br4uyTiTk' scrolling='no' style='width:468px; height:60px; border:0px; padding:5pt'></iframe>
+			
+		</header>
+
+		<section>
+		
+			{{ content }}
+		
+		</section>
+
+		<footer id="footer">
+
+			<div class="grid">
+				Copyright &copy; 2012
+			</div>
+
+			<div class="gridright">
+			</div>
+			
+			<div class="clear"></div>
+		
+		</footer>	
+	
+	</div>
+	
+	<script>
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-31646653-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+</body>
+</html>
