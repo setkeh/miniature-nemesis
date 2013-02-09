@@ -24,4 +24,4 @@ RewriteRule ^(.*)$ _site/$1
 # Followed by / then the main file for your site, index.html, index.php, etc.
 
 RewriteCond %{HTTP_HOST} ^(www.)?setkeh.com$
-RewriteRule ^(/)?$ _site/index.html [L]
+RewriteRule ^/.*$ http://setkeh.com/_site/ [R=301,L]
