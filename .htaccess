@@ -1,0 +1,27 @@
+# Do not change the line below.
+
+RewriteEngine on
+
+# Change YOURDOMAIN.COM to be your main domain.
+
+RewriteCond %{HTTP_HOST} ^(www.)?setkeh.com$
+
+# Change 'SUBFOLDERPATH' to be the path to the folder you will use for your main domain. For instance: /MYREPO/JEKYLL/_SITE
+
+RewriteCond %{REQUEST_URI} !^/srv/www/setkeh/_site/
+
+# Don't change the lines below.
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Change 'SUBFOLDERPATH' to be the path to the folder you will use for your main domain.
+
+RewriteRule ^(.*)$ /srv/www/setkeh/_site/$1
+
+# Change YOURDOMAIN.COM to be your main domain.
+# Change 'SUBFOLDERPATH' to be the path to the folder you will use for your main domain.
+# Followed by / then the main file for your site, index.html, index.php, etc.
+
+RewriteCond %{HTTP_HOST} ^(www.)?setkeh.com$
+RewriteRule ^(/)?$ /srv/www/setkeh/_site/index.html [L]
